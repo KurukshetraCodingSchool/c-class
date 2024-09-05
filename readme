@@ -1,0 +1,29 @@
+increment  ++
+pre                                   post
+++a                                   a++
+pahle increment than use kro          pahle use kro uske bad use increment
+dercremnt  --
+pre                                   post
+--a                                   a--
+pahle dercremnt than use kro          pahle dercremnt than use kro 
+
+
+
+
+
+a = 5        
+b = 10
+c = a  = 5   a is blank
+a = b  = 10   b is blank
+b = c  = 5    c is blank 
+
+
+after swap a= 10 , b = 5
+
+swap without third varible
+a = 5        
+b = 10
+
+a =  a+b  = 5 + 10 = 15
+b =  a-b  = 15 - 10 = 5
+a = a-b = 15  - 5 = 10
