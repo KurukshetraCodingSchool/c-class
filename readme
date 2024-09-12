@@ -51,3 +51,44 @@ even (sum) division by 2 ✅
 n%2 == 0
 odd (visham) division by 2 ❌
 n%2 == 1
+
+
+
+user_name 
+age 
+
+age >= 18 ✅ valid
+age < 18 ❌ not valid
+
+
+
+sunday = 1
+Monday = 2
+
+switch(condition){
+    case 1:
+    // block of code
+}
+
+
+
+a b c 
+
+a>b && a>c
+
+
+Goa = 5000
+Deepika  && Mahima   && logical and operators
+✅     &&   ❌     = ❌
+❌    &&    ✅     = ❌
+❌   &&      ❌    = ❌
+✅    &&    ✅     = ✅
+
+
+
+Movie = 50
+Mahima    ||   Swati     || Logical or opeartors
+✅       || ❌    = ✅
+❌       || ✅    = ✅
+❌       || ❌    = ❌  
+✅       || ✅    = ✅
