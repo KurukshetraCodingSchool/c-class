@@ -72,11 +72,6 @@ switch(condition){
 
 
 
-a b c 
-
-a>b && a>c
-
-
 Goa = 5000
 Deepika  && Mahima   && logical and operators
 ✅     &&   ❌     = ❌
@@ -92,3 +87,27 @@ Mahima    ||   Swati     || Logical or opeartors
 ❌       || ✅    = ✅
 ❌       || ❌    = ❌  
 ✅       || ✅    = ✅
+
+
+
+if else 
+@17
+
+a b c 
+
+a >b && a>c
+b>c && b>a
+
+leap year
+29 feb
+2024 29 feb ✅ 366 days ki leap year
+2020 29 feb ✅
+2016 , 2028 , 2032 
+2020%4 == 0
+0    ==0
+
+
+
+
+ch == 'a'
+a e i o u = vowel
