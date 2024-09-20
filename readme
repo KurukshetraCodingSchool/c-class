@@ -111,3 +111,29 @@ leap year
 
 ch == 'a'
 a e i o u = vowel
+
+
+Shop Discount 
+1000 2% 
+1000-5000 5%
+above 5000 10%
+
+Bijli bill
+100 units 100*6 rupay
+bill above 200 units 200*7 =  1400
+bill above 500 units 500*10 = 5000
+
+
+loops
+1.While loops
+2.Do while loops
+3.For Loops
+4.Nested Loops 
+
+Nested Loops =  Loop ke ander loop 
+
+for (int i ; i<10; i++){  outer loop
+   for (int j ; i<10 ;  j++){ inner loop
+     block of code 
+   }
+}
