@@ -137,3 +137,30 @@ for (int i ; i<10; i++){  outer loop
      block of code 
    }
 }
+
+Syntax of for loop
+for (int i = 1; i<10; i++/i--)
+{
+  block of code
+}
+
+for = keyword
+i = variable
+int = data type
+1 = value
+i<10 = condition
+i++/i-- = increment/decrement operator
+
+
+for (int i = 1; i<10;i++){
+        printf("%d\n",i);
+    }
+
+Stage 1 =  int i = 1
+Stage 2 = check condition 
+if condition is True than move Stage 3
+Stage 3 =  block of code 
+      printf("%d\n",i)
+if condition is false so code is terminate
+loop band ho jayega
+Stage 4 = increment/decrement      

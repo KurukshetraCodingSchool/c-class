@@ -5,6 +5,6 @@ int main(){
     printf("Please enter a number ");
     scanf("%d",&n);
     for (int i = 1; i<n+1;i++){
-        printf("\n Hello World");
+        printf("%d\n",i);
     }
 }
