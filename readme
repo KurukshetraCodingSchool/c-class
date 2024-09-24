@@ -178,4 +178,31 @@ Factorial of a number is the product of all positive integers less than or equal
 factorial of 5 
 5! = 5*4*3*2*1 = 120
 6! = 6*5*4*3*2*1 = 720 
+
+
+10
+1%2==0 odd
+2%2 == 0 even
+3
+4
+5
+6
+7
+8
+9
+10
+num %2==0 = even
+num %2!=0 = odd
  
+
+What is factor ?
+Factor of a number is a number that divides the given number without leaving a remainder.
+
+10 = 1,2,5,10
+12 = 1,2 ,3,4 ,6,12
+
+
+loop 
+if 10%i ==0
+print(i)
+
