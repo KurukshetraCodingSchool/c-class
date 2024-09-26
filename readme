@@ -206,3 +206,11 @@ loop
 if 10%i ==0
 print(i)
 
+
+
+what is prime number ?
+A prime number is a positive integer greater than 1 that has no positive divisors other than
+
+Prime number 1 or khud de divide hote hai 
+jaise 13 
+13 ke sirf 2 divisors hai  1 ,13
