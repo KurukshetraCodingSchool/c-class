@@ -210,7 +210,27 @@ print(i)
 
 what is prime number ?
 A prime number is a positive integer greater than 1 that has no positive divisors other than
+ prime number ke diviors hote hai 
+    1 or self 
+    prime positive hota hai 
+    0 se badha hota hai
+count == 0 prime number 
+count = 1 aapko pta hai humne loop 2 se chalaye hai 
+to 1 posibllity ko km kiya hai yai ab 1 se check 
+or hamara loop num/2 
+num = 12
+num/2 = 6
+count = 1
 
-Prime number 1 or khud de divide hote hai 
-jaise 13 
-13 ke sirf 2 divisors hai  1 ,13
+
+second way of check prime number 
+num = 12
+loop starting point 2
+ending point equal to number i<=num
+we know that 
+num %1 ==0 
+num % i == 0
+i ki value 2 start hogi or hmare number tk jayegi 12
+count = 1 it's a variable
+num % 2 == 0
+num % 3 == 0 than count ki value incre hogi 
