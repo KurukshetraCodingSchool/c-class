@@ -231,6 +231,24 @@ we know that
 num %1 ==0 
 num % i == 0
 i ki value 2 start hogi or hmare number tk jayegi 12
-count = 1 it's a variable
+count = 1 its a variable
 num % 2 == 0
 num % 3 == 0 than count ki value incre hogi 
+
+
+
+Sabse pahle eak number lena hai
+usko reverse krna hai 
+phri check karna 
+reverse == number  than number hai palindrome number
+
+Q5 while loop
+SAbse pahle eak number lena hai
+uske bad mujhe while lga kr remainder nikalne hai 
+while ke ander 
+for 1 se remainder
+factorial 
+sum of factorial
+
+num == sum of factorial (Its strong number )
+num != sum of factorial (Its not a strong number)
