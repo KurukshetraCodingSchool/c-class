@@ -252,3 +252,12 @@ sum of factorial
 
 num == sum of factorial (Its strong number )
 num != sum of factorial (Its not a strong number)
+
+
+Auto Morphic number  : 
+num 
+Square of num
+
+25   625
+6    36
+4    16
