@@ -4,7 +4,7 @@ int main()
 {
     char choice;
     int a, b;
-    int choice1;
+    char choice1;
     double result;
     do
     {
@@ -18,7 +18,7 @@ int main()
         printf("Press l for logarithm \n");
         printf("Press e for Exponential \n");
         printf("Press s for  Trigonometric sin \n");
-        printf("Press c for Trigonometric sin  \n");
+        printf("Press c for Trigonometric cos  \n");
         printf("Press t for Trigonometric tan \n");
         printf("Press 5 for exit\n");
 
@@ -109,15 +109,37 @@ int main()
             printf("Exponentail (e^%d) is %.2lf\n",a,result);
             break;
 
+            case 's':
+            printf("Enter a number : ");
+            scanf("%d",&a);
+            result =sin(a);
+            printf("Sine of %d radians is %.2lf\n",a,result);
+            break;
+
+            case 'c':
+            printf("Enter a number : ");
+            scanf("%d",&a);
+            result =cos(a);
+            printf("Cos of %d radians is %.2lf\n",a,result);
+            break;
+            case 't':
+            printf("Enter a number : ");
+            scanf("%d",&a);
+            result =tan(a);
+            printf("Tan of %d radians is %.2lf\n",a,result);
+            break;
+
         default:
             printf("Thank you!");
             break;
         }
-        printf("\nDo you want to perform another calculation ? so please press 6 :  ");
+        printf("Do you want to perform another calculation ? so please press 6 :  ");
+        scanf("%c",&choice1);
 
-        scanf("%d", &choice1);
-
-    } while (choice1 == 6);
+    } while (choice1 == 'y' || choice1 =='Y');
     printf("Calculation Program has ended \n");
-    printf("Thank You");
 }
+
+
+//  Color 
+//  Clear 
