@@ -23,7 +23,7 @@ int main()
         printf("Press 5 for exit\n");
 
         printf("Enetre a number for choice : ");
-        scanf("%c", &choice);
+        scanf(" %c", &choice);
         switch (choice)
         {
         case '+':
@@ -80,7 +80,7 @@ int main()
         case 'S':
             printf("Enter First Base : ");
             scanf("%d", &a);
-            if (a > 0)
+            if (a >= 0)
             {
                 result = sqrt(a);
                 printf("result =%.2lf", result);
@@ -133,7 +133,8 @@ int main()
             printf("Thank you!");
             break;
         }
-        printf("Do you want to perform another calculation ? so please press 6 :  ");
+        printf("\nDo you want to perform another calculation ? so please press (y/n) :  ");
+          getchar();
         scanf("%c",&choice1);
 
     } while (choice1 == 'y' || choice1 =='Y');
