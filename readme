@@ -261,3 +261,18 @@ Square of num
 25   625
 6    36
 4    16
+
+
+
+simple interset
+
+si = (principle*rate*time)/100
+
+compound interset
+amount = principle*pow((1+(rate/100),time)
+ci = amount-principle
+
+
+ascii value hoti 
+A = 65
+a = 97
