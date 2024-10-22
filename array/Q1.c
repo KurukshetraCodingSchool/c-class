@@ -28,6 +28,11 @@ int main(){
     printf("\nSum of all element in array = %f",sum);
 
    float size = sizeof(arr) / sizeof(arr[0]);
+
     float mean = sum/size;
     printf("\nMean of all element in array = %f",mean);
+       // float temp = sizeof(arr);
+       // float temp1 = sizeof(arr[0]);
+       // printf("\nSize of array = %f",temp);
+       // printf("\nSize of array element = %f",temp1);
 }
